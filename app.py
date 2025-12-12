@@ -15,7 +15,7 @@ if st.button("Generate quiz questions"):
 
     prompt = f"""You are an expert in generating quiz questions.
 
-        for the following topic - {topic}, genrate 5 quize questions in the following form
+        for the following topic - {topic}, genrate 50 quize questions in the following form
 
         {{ "question":"text" ,
         "options": [A,B,C,D],
