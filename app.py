@@ -2,7 +2,7 @@ import streamlit as st
 from google import genai
 import json
 
-client = genai.Client(api_key=st.secrets('GOOGLE_API_KEY'))
+client = genai.Client(api_key=st.secrets['GOOGLE_API_KEY'])
 
 st.title("Goated Quiz")
 
